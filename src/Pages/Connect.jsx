@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 const Connect = () => {
   return (
     <div
+      id="connect"
       className="relative py-24 px-8 flex flex-col items-center justify-center text-center overflow-hidden"
     >
       {/* NEW: Background Image */}

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import BgImage from "../assets/img.jpg";
+import { Link } from "react-scroll";
 
 export default function HeroSection() {
   return (
@@ -43,10 +44,17 @@ export default function HeroSection() {
           ))}
         </div>
 
+      <Link
+  to="connect"
+  smooth={true}
+  duration={500}
+>
         <button className="bg-yellow-500 px-4 py-3 font-bold text-black rounded-xl cursor-pointer hover:bg-yellow-600 transition">
           Book Your Consultation
         </button>
+      </Link>
       </div>
+      
 
       {/* Right Rotating Bitcoin - Desktop / Tablet */}
       <div className="hidden md:flex relative justify-center items-center w-full md:w-auto mt-10 md:mt-0">
