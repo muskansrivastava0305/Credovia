@@ -7,6 +7,7 @@ import Howit from "./Pages/Howit";
 import Why from "./Pages/Why";
 import CTA from "./Pages/CTA";
 import Footer from "./Pages/Footer";
+import Connect from "./Pages/Connect";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <CoreOffering />
       <Howit />
       <Why />
+      <Connect />
       <CTA />
       <Footer />
     </div>
